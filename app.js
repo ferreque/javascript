@@ -37,25 +37,25 @@ let persona={
 
 //operadores 
 //aritmeticos (+ - / * %(resto))
-let suma= numero1+numero2
-let resta= numero2-numero1
-let multiplicacion= numero1*numero3
-let division= numero1 / numero2
-let resto =numero1%numero2
+let suma= numero1+numero2;
+let resta= numero2-numero1;
+let multiplicacion= numero1*numero3;
+let division= numero1 / numero2;
+let resto =numero1%numero2;
 //unitarios 
-++numero1
---numero1
+++numero1;
+--numero1;
 //relacionales
-console.log(numero1==numero2)
-console.log(numero1!=numero2)
+console.log(numero1==numero2);
+console.log(numero1!=numero2);
 
-console.log('Hola mundo')
+console.log('Hola mundo');
 
-console.log('El resultado de la suma es ' + suma)
+console.log('El resultado de la suma es ' + suma);
 
 //Negación
-let verdadero=true
-console.log(!verdadero)
+let verdadero=true;
+console.log(!verdadero);
 
 
-prompt('ingrese su nombre')
+let valor=prompt('ingrese su nombre');
